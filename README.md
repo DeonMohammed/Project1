@@ -65,6 +65,7 @@ Includes utility scripts that support the test framework, such as helper functio
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 3. Install dependencies:
+    - **Selenium**:
     ```bash
     pip install selenium
     ```
@@ -76,7 +77,7 @@ Includes utility scripts that support the test framework, such as helper functio
     ```bash
     pip install pytest-html
     ```
-4. Run the tests:
+5. Run the tests:
     ```bash
     pytest --html=report.html
     ```
